@@ -1,0 +1,46 @@
+body {
+	background-color: rgb(179, 227, 241);
+	line-height: 1.5;
+	-webkit-text-size-adjust: 100%;
+	-moz-tab-size: 4;
+	tab-size: 4;
+	font-family: ui-sans-serif, system-ui, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+	font-feature-settings: normal;
+	font-variation-settings: normal;
+	-webkit-tap-highlight-color:transparent;
+}
+
+.font-sans {
+	font-family:ui-sans-serif, system-ui, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji
+}
+
+.navbar, .bg-body-tertiary {
+	background-color: rgb(179, 227, 241) !important;
+}
+
+h1, .text-body-emphasis, .navbar-brand, .nav-item, .nav-link, a {
+	color: rgb(75, 10, 176) !important;
+	font-family: ui-sans-serif, system-ui, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+}
+
+.navbar-brand {
+	font-weight: bold;
+}
+
+a {
+	text-decoration: none;
+}
+
+.nav-link:hover, a:hover {
+	text-decoration: underline;
+}
+
+.navbar-nav .nav-link.active {
+	font-weight: bold;
+}
+
+.navbar-brand, a:hover {
+	font-weight: bold;
+	text-decoration: none;
+	font-family: ui-sans-serif, system-ui, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+}
